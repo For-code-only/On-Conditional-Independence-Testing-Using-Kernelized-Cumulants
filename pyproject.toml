@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csic-paper"
+version = "0.1.0"
+description = "CSIC inference and paired HSIC/KCI-type main experiments"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy==2.3.5", "scipy==1.18.1", "matplotlib==3.11.2"]
+
+[project.scripts]
+csic-run = "csic.benchmark:main"
+csic-summarize = "csic.reporting:main"
+csic-plot = "csic.reporting:plot_main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
