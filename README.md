@@ -1,7 +1,6 @@
 # CSIC
 
 Code for **On Conditional Independence Testing Using Kernelized Cumulants**  
-Hongming Huang, Takenori Sukeda and Joe Suzuki.
 
 Includes CSIC / CSIC–CI, HSIC / KCI-type comparators, and the unconditional,
 Gaussian conditional and Seoul main experiments.
